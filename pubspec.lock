@@ -263,10 +263,12 @@ packages:
   grpc:
     dependency: "direct main"
     description:
-      name: grpc
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.0"
+      path: "."
+      ref: demonstrate_issue
+      resolved-ref: ff07ddeae8dcae519b848a9d869dad9724a3ed42
+      url: "https://github.com/sigurdm/grpc-dart"
+    source: git
+    version: "2.0.0+1"
   html:
     dependency: transitive
     description:
